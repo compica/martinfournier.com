@@ -1,0 +1,432 @@
+ @import url("JQUI.css");
+/*------------------------------------------------------------------------*/
+/*------------This section is all of the TEXT AND FONT styles-------*/
+/*-----------------------------------------------------------------------*/
+
+img.W_E{
+	display:inline-block;}
+
+
+hr.WE {
+	border: 0 #ccc dotted;
+	border-top-width: 1px;
+	clear: both;
+	height: 0;
+}
+/* -----------------------Headings----------------------------------*/
+
+h1.W_E {
+	font: 28px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	padding:0px;
+	margin:0px;
+}
+h2.W_E {
+	font-size: 23px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	padding:0px;
+	margin:0px;
+}
+h3.W_E {
+	font-size: 20px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	padding:0px;
+	margin:0px;
+}
+h4.W_E {
+	font-size: 19px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	padding:0px;
+	margin:0px;
+}
+h5.W_E {
+	font-size: 19px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	padding:0px;
+	margin:0px;
+}
+h6.W_E {
+	font-size: 18px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	padding:0px;
+	margin:0px;
+}
+/* -------------------Spacing--------------------------------------------*/
+p.W_E {
+	font-weight:normal;
+	font-size:15px;
+	padding:0 0 10px 0;
+	margin:0px;
+}
+ol.W_E {
+	list-style: decimal;
+}
+ul.W_E {
+	list-style: disc;
+}
+li.W_E {
+	margin-left: 10px;
+}
+/*----------------------------------------------------------------------*/
+/*----------Colors----------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+
+.W_E-green {
+	color:green !important;
+}
+.W_E-blue {
+	color:#07568d !important;
+}
+.W_E-red {
+	color:red !important;
+}
+/*----------------------------------------------------------------*/
+/*------------This section is all of the GENERAL styles-------*/
+/*---------------------------------------------------------------*/
+
+#W_E_container {
+	min-height: 520px !important;
+}
+.W_E-clear {
+	clear:both;
+}
+p.W_E-small {
+	font-size:13px;
+	margin-top:10px;
+	font-weight:normal;
+}
+a.W_E:hover {
+	color:#222;
+}
+body.W_E {
+	font-family:'Trebuchet MS', Arial, Helvetica, sans-serif;
+}
+h3 a.W_E {
+	font-size:20px;
+	font-weight:bold;
+	color:#22373B;
+}
+/*---------------------------------------------Classes---------------------------------------------*/
+/*----------Changes color of widgets that are added to green. You can adjust to whatever----------*/
+.W_E-added {
+	color:#52bf40 !important;
+}
+.W_E-floatRight {
+	float:right;
+}
+.W_E-first {
+	margin-top:20px;
+}
+.W_E-width100 {
+	width:100px !important;
+}
+.W_E-width60 {
+	width:60px !important;
+}
+.W_E-width20 {
+	width:20px !important;
+}
+.W_E-demo {
+	margin:0px;
+	width:650px;
+	float:left;
+}
+.W_E-cms {
+	margin-right:10px;
+	margin-top:15px;
+}
+.W_E-col1 {
+	padding-top:20px;
+	float:left;
+	width:300px;
+}
+.W_E-col2 {
+	padding-top:20px;
+	float:left;
+	width:300px;
+}
+.W_E-col1 label, .W_E-col2 label {
+	float:left;
+}
+.W_E-col1 input, .W_E-col2 input {
+	border:1px #ccc dotted !important;
+	width:150px !important;
+	float:right;
+	margin-right:15px;
+}
+.W_E-total {
+	font-size:18px !important;
+}
+/*-----------Adds dots to the bottom of the div--------------------*/
+.W_E-dots {
+	background: url(../images/dot.gif) repeat-x scroll 0 100% transparent;
+	overflow: hidden;
+	width: 100%;
+	padding:15px 0px 15px 0px;
+}
+/*----------------IDs used throughout-----------------------------*/
+#W_E-sectionOne {
+	overflow-y:hidden;
+	padding-left:20px;
+}
+#W_E-sectionTwo {
+	overflow-y:hidden;
+	padding-left:20px;
+}
+#W_E-sectionThree {
+	overflow-y:hidden;
+	padding-left:20px;
+}
+#W_E-designHidden {
+	height:0px;
+	overflow:hidden;
+}
+#W_E-pagesSlider {
+	width: 540px;
+	float: left;
+	height: 33px;
+	cursor:pointer;
+	background:url(../images/bar.png) no-repeat top;
+	border: none;
+}
+/*------------------DAYS SLIDER------------------------*/
+
+#W_E-daysSlider {
+	width: 540px;
+	float: left;
+	height: 23px;
+	cursor:pointer;
+	background:url(../images/bar.png) no-repeat;
+	border: none;
+}
+.W_E-minusDays {
+	background: url(../images/minus.png) no-repeat;
+	height: 23px;
+	width: 29px;
+	overflow: hidden;
+	float:left;
+	margin-left:7px;
+	cursor:pointer;
+}
+.W_E-plusDays {
+	background: url(../images/plus.png) no-repeat;
+	height: 23px;
+	width: 29px;
+	overflow: hidden;
+	float:left;
+	cursor:pointer;
+}
+/*------------------Pages SLIDER------------------------*/
+
+.W_E-minusPages {
+	background: url(../images/minus.png) no-repeat;
+	height: 23px;
+	width: 29px;
+	overflow: hidden;
+	float:left;
+	margin-left:7px;
+	cursor:pointer;
+}
+.W_E-plusPages {
+	background: url(../images/plus.png) no-repeat;
+	height: 23px;
+	width: 29px;
+	overflow: hidden;
+	float:left;
+	cursor:pointer;
+}
+/*------------FORM STYLES---------------------*/
+
+input.W_E {
+	box-shadow: none !important;
+	background-color:#f8f7f2 !important;
+	border:0;
+	font-size:16px;
+	margin-bottom:10px;
+	color:red !important;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	width:60px;
+}
+input.W_E.W_E-added {
+	color:#52bf40 !important;
+}
+label.W_E {
+	font-weight:bold;
+	font-size:16px;
+	margin-bottom:10px;
+}
+textarea.W_E {
+	width:95%;
+	height:100px;
+}
+button.W_E {
+	position: relative;
+	overflow: visible;
+	display: inline-block;
+	padding: 7px 15px;
+	border: 1px solid #CCCCCC;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #fff;
+	white-space: nowrap;
+	cursor: pointer;
+	background-color: #eaeaea;
+	background: -moz-linear-gradient(top, #ffffff, #eaeaea);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #ffffff), color-stop(1.0, #eaeaea));
+	border: 1px solid #cacaca;
+	-webkit-background-clip: padding;
+	-moz-background-clip: padding;
+	-o-background-clip: padding-box;
+	border: 1px solid rgba(0, 0, 0, .25);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color:#272727;
+	margin:5px;
+}
+button.W_E:hover, button.W_E:focus {
+	border-color: #666;
+	border-bottom-color: #666;
+	text-decoration: none;
+	color:#333;
+	background-color:#fff;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#dbdbdb), to(#ccc));
+	background-image: -moz-linear-gradient(#dbdbdb, #ccc);
+	background-image: -o-linear-gradient(#dbdbdb, #ccc);
+	background-image: linear-gradient(#dbdbdb, #ccc);
+}
+#W_E-buttons {
+	border:1px dotted #ccc;
+	-moz-border-radius:10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding:10px;
+}
+/* ------------------------------ */
+/* Styles for the floating total  */
+/* ------------------------------ */
+
+#W_E-floatingTotal {
+	border: 1px solid #AAAAAA;
+	margin: 0 0 0 680px;
+	padding: 15px;
+	position: absolute;
+	width: 200px;
+}
+#W_E-floatingTotal label, #W_E-floatingTotal input {
+	color:#22373B;
+	font-size:16px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+}
+.W_E-rounded_square {
+	display:block;
+	background-color:#F8F7F2;
+	-moz-border-radius:10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+#W_E-floatingTotal label {
+	margin-left:20px;
+	font-weight:normal !important;
+}
+.W_E-rounded_square h6 {
+	border-bottom:1px #CCC dotted;
+}
+label.W_E-total {
+	margin-left:10px !important;
+	font-weight:bold !important;
+}
+/*------------------------------------------------*/
+/*This section is all of the jQuery style changes!*/
+/*------------------------------------------------*/
+
+h3.W_E {
+	margin: 0 !important;
+}
+.ui-accordion .ui-accordion-header .ui-icon {
+    background-image: none !important;
+}
+.ui-icon-triangle-1-e {
+	border-color:  transparent transparent transparent #22373B;
+	border-style:solid;
+	border-width:12px;
+	width:0;
+	height:0;
+}
+.ui-icon-triangle-1-s {
+	border-color: #22373B transparent transparent transparent;
+	border-style:solid;
+	border-width:12px;
+	width:0;
+	height:0;
+}
+.ui-slider-horizontal .ui-state-default {
+	margin-top:5px;
+	background: url(../images/selector.png) no-repeat;
+	border: none;
+}
+.ui-state-active {
+	background:url(../images/dot.gif) repeat-x scroll 0 100% #f8f7f2;
+	overflow: hidden;
+}
+/*-----------------------------------------------------------
+
+----------------messages------------------------------------
+
+------------------------------------------------------------*/
+
+.W_E_success, .W_E_errors {
+	border: 1px solid;
+	margin: 15px 0px;
+	padding:15px 10px 15px 70px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	-moz-border-radius:10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+.W_E_success {
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	background-image:url('../images/Success.png');
+}
+.W_E_errors {
+	color: #D8000C;
+	background-color: #FFBABA;
+	background-image: url('../images/Error.png');
+}
+button.payment {
+	color: #4F8A10;
+	background-color: #DFF2BF !important;
+	float:left;
+	margin:15px 15px 15px 0;
+}
+.W_E_loader {
+	position:absolute;
+	margin-top:40px;
+	margin-left:300px;
+}
+textarea#W_E-colors {
+	height:20px;
+}
+/*CMS images*/
+
+.W_E_none {
+	background: url('../images/none.png') no-repeat;
+	width:30px;
+	height:30px;
+}
+.W_E_joomla {
+	background: url('../images/joomla.png') no-repeat;
+	width:30px;
+	height:30px;
+}
+.W_E_wordpress {
+	background: url('../images/wordpress.png') no-repeat;
+	width:30px;
+	height:30px;
+}
+.W_E_drupal {
+	background: url('../images/drupal.png') no-repeat;
+	width:30px;
+	height:30px;
+}

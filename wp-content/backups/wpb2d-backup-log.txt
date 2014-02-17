@@ -1,0 +1,52 @@
+00:02:25: Backup started on Thursday November 21, 2013.
+00:02:25: Your time limit is 30 seconds and your memory limit is 256M
+00:02:28: Creating SQL backup of your WordPress core.
+00:11:03: There has been no backup activity for a long time. Attempting to resume the backup.
+00:11:06: Creating SQL backup of your WordPress plugins.
+00:11:08: Uploading large file 'martinfournier-backup-core.sql.9a18fc335d91aaea2115d2d8484365120d669186-wpb2d-secret' (24.3MB) in chunks
+00:11:11: Uploaded 4MB of 24.3MB
+00:11:14: Uploaded 8MB of 24.3MB
+00:11:17: Uploaded 12MB of 24.3MB
+00:11:20: Uploaded 16MB of 24.3MB
+00:11:23: Uploaded 20MB of 24.3MB
+00:11:25: Uploaded 24MB of 24.3MB
+00:11:27: Uploaded 24.3MB of 24.3MB
+00:11:29: Approximately 1% complete.
+Uploaded Files:[{"file":"martinfournier-backup-core.sql","mtime":1385021073}]
+00:11:35: Approximately 1% complete.
+Uploaded Files:[{"file":"martinfournier-backup-plugins.sql","mtime":1385021468}]
+00:11:41: Approximately 1% complete.
+00:11:47: Approximately 1% complete.
+00:11:53: Approximately 1% complete.
+00:11:59: Approximately 1% complete.
+00:12:05: Approximately 1% complete.
+00:12:11: Approximately 1% complete.
+00:12:17: Approximately 2% complete.
+00:12:24: Approximately 2% complete.
+00:12:30: Approximately 2% complete.
+00:12:36: Approximately 3% complete.
+00:12:42: Approximately 3% complete.
+00:12:49: Approximately 4% complete.
+00:12:56: Approximately 4% complete.
+00:13:03: Approximately 4% complete.
+00:13:10: Approximately 5% complete.
+00:18:27: There has been no backup activity for a long time. Attempting to resume the backup.
+00:18:30: Resuming upload of large file 'martinfournier-backup-core.sql.9a18fc335d91aaea2115d2d8484365120d669186-wpb2d-secret'
+00:18:36: Approximately 6% complete.
+Uploaded Files:[{"file":"martinfournier-backup-core.sql","mtime":1385021073}]
+00:18:43: Approximately 6% complete.
+00:18:50: Approximately 7% complete.
+00:18:58: Approximately 7% complete.
+00:19:06: Approximately 9% complete.
+00:19:13: Approximately 9% complete.
+00:19:22: Approximately 10% complete.
+00:19:28: Approximately 11% complete.
+00:19:35: Approximately 11% complete.
+00:19:43: Approximately 11% complete.
+00:19:49: Approximately 11% complete.
+00:19:56: Approximately 12% complete.
+00:20:04: Approximately 12% complete.
+00:20:14: Approximately 13% complete.
+00:20:15: Backup complete.
+00:20:15: A total of 5408 files were processed.
+00:20:15: A total of 29MB of memory was used to complete this backup.

@@ -1,0 +1,166 @@
+0000.023 (0) Opened log file at time: Fri, 14 Feb 2014 00:34:36 +0000
+0000.027 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.7.41 WP: 3.7.1 PHP: 5.2.17 (Linux spilotro 2.6.32.45-grsec-2.2.2-r3 #8 SMP Mon Oct 10 13:33:17 PDT 2011 x86_64) MySQL: 5.1.56-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 23.5M | 23.8M) multisite: N mcrypt: Y ZipArchive::addFile: N W3TC/ObjectCache: N
+0000.030 (0) Free space on disk containing Updraft's temporary directory: 1129311.3 Mb
+0000.041 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: manual)
+0000.043 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.099 (0) Requesting semaphore lock (f)
+0000.104 (0) Semaphore (f) was stuck, set lock time to 2014-02-14 00:34:36
+0000.107 (0) Semaphore (f) reset to 1
+0000.110 (0) Set semaphore last lock (f) time to 2014-02-14 00:34:36
+0000.113 (0) Semaphore lock (f) complete
+0000.134 (0) Backup run: resumption=0, nonce=0cf82d8bde27, begun at=1392338076 (0s ago), job type=backup
+0000.135 (0) Scheduling a resumption (1) after 300 seconds (1392338376) in case this run gets aborted
+0000.244 (0) Checking if we have a zip executable available
+0000.253 (0) Testing: /usr/bin/zip
+0000.293 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.298 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.300 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.303 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=127) (out=105) (deflated 17%)
+0000.305 (0) Output: total bytes=127, compressed=105 -> 17% savings
+0000.328 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=134) (out=109) (deflated 19%)
+0000.332 (0) Output: total bytes=261, compressed=214 -> 18% savings
+0000.399 (0) Working binary zip found: /usr/bin/zip
+0000.416 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.428 (0) Creation of backups of directories: beginning
+0000.439 (0) Beginning creation of dump of plugins (split every: 800 Mb)
+0000.980 (0) Total entities for the zip file: 145 directories, 755 files, 13.8 Mb
+0001.012 (0) Zip: backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-plugins.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0001.035 (0) Zip: backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-plugins.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0001.072 (0) Zip: backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-plugins.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0001.094 (0) Zip: backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-plugins.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0001.110 (0) Zip: backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-plugins.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0001.116 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.7 Mb, 755 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0007.255 (0) backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-plugins.zip.tmp: size is now: 3.40 Mb
+0007.276 (0) Zip: backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-plugins.zip.tmp: 600 files added (on-disk size: 3502.8 Kb)
+0007.339 (0) Zip: backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-plugins.zip.tmp: 700 files added (on-disk size: 3502.8 Kb)
+0011.732 (0) backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-plugins.zip.tmp: size is now: 5.80 Mb
+0012.024 (0) Created plugins zip (0) - 5973.5 Kb in 11.6 s (515.8 Kb/s) (SHA1 checksum: 7519af1f7b68b1b52185156f7bfc071c7b7eac40)
+0012.076 (0) Beginning creation of dump of themes (split every: 800 Mb)
+0012.168 (0) Total entities for the zip file: 19 directories, 136 files, 0.6 Mb
+0012.204 (0) Zip: backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0012.976 (0) backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-themes.zip.tmp: size is now: 0.30 Mb
+0013.007 (0) Created themes zip (0) - 299.3 Kb in 0.9 s (324.9 Kb/s) (SHA1 checksum: c80af999dd3f32dc0666cd7837c0bad91dca38f3)
+0013.031 (0) Beginning creation of dump of uploads (split every: 800 Mb)
+0013.124 (0) /home/martinsky/martinfournier.com/wp-content/uploads/index.php: unreadable file
+0013.147 (0) uploads/index.php: unreadable file - could not be backed up
+0013.156 (0) Total entities for the zip file: 44 directories, 148 files, 8.4 Mb
+0013.210 (0) Zip: backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-uploads.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0017.439 (0) backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-uploads.zip.tmp: size is now: 8.20 Mb
+0017.739 (0) Created uploads zip (0) - 8406.3 Kb in 4.7 s (1788.5 Kb/s) (SHA1 checksum: 71a4e7ffc707da6ba6bccf99d352693a3fb510cc)
+0017.755 (0) Beginning backup of other directories found in the content directory (index: 0)
+0017.760 (0) Looking for candidates to back up in: /home/martinsky/martinfournier.com/wp-content
+0017.768 (0) finding files: backups: skipping: excluded by options (glob)
+0017.779 (0) finding files: plugins: skipping: this is the plugins directory
+0017.783 (0) finding files: themes: skipping: this is the themes directory
+0017.795 (0) finding files: upgrade: skipping: excluded by options
+0017.799 (0) finding files: uploads: skipping: this is the uploads directory
+0017.807 (0) finding files: index.php: adding to list
+0017.815 (0) finding files: updraft: skipping: this is the updraft directory
+0017.823 (0) finding files: bps-backup: adding to list
+0017.860 (0) Total entities for the zip file: 3 directories, 4 files, 0 Mb
+0017.956 (0) backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-others.zip.tmp: size is now: 0.00 Mb
+0017.966 (0) Created others zip (0) - 2.6 Kb in 0.1 s (23.2 Kb/s) (SHA1 checksum: 431daf6fff6dbeeeab39db0e971c079683ee3069)
+0017.977 (0) Saving backup status to database (elements: 8)
+0017.987 (0) No database backup - not part of this run
+0017.989 (0) Saving backup history
+0017.999 (0) backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0018.003 (0) backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0018.008 (0) backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0018.018 (0) backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-others.zip: others: This file has not yet been successfully uploaded: will queue
+0018.046 (0) Requesting upload of the files that have not yet been successfully uploaded (4)
+0018.101 (0) Cloud backup selection: dropbox
+0018.140 (0) Beginning dispatch of backup to remote (dropbox)
+0018.201 (0) Dropbox: begin cloud upload
+0018.242 (0) Dropbox: access gained
+0018.608 (0) Dropbox quota usage: normal=71774.3 Mb, shared=56.1 Mb, total=107520 Mb, available=35689.6 Mb
+0018.615 (0) Dropbox: Attempt to upload: backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-plugins.zip to: backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-plugins.zip
+0021.272 (0) Dropbox chunked upload: 8.6 % uploaded (zcmRyIFTGtUH2zhgB1XEhQ, 524288)
+0023.617 (0) Dropbox chunked upload: 17.1 % uploaded (zcmRyIFTGtUH2zhgB1XEhQ, 1048576)
+0026.331 (0) Dropbox chunked upload: 25.7 % uploaded (zcmRyIFTGtUH2zhgB1XEhQ, 1572864)
+0028.481 (0) Dropbox chunked upload: 34.3 % uploaded (zcmRyIFTGtUH2zhgB1XEhQ, 2097152)
+0031.257 (0) Dropbox chunked upload: 42.9 % uploaded (zcmRyIFTGtUH2zhgB1XEhQ, 2621440)
+0033.867 (0) Dropbox chunked upload: 51.4 % uploaded (zcmRyIFTGtUH2zhgB1XEhQ, 3145728)
+0036.881 (0) Dropbox chunked upload: 60 % uploaded (zcmRyIFTGtUH2zhgB1XEhQ, 3670016)
+0040.006 (0) Dropbox chunked upload: 68.6 % uploaded (zcmRyIFTGtUH2zhgB1XEhQ, 4194304)
+0042.656 (0) Dropbox chunked upload: 77.1 % uploaded (zcmRyIFTGtUH2zhgB1XEhQ, 4718592)
+0046.295 (0) Dropbox chunked upload: 85.7 % uploaded (zcmRyIFTGtUH2zhgB1XEhQ, 5242880)
+0048.772 (0) Dropbox chunked upload: 94.3 % uploaded (zcmRyIFTGtUH2zhgB1XEhQ, 5767168)
+0051.046 (0) Dropbox chunked upload: 100 % uploaded (zcmRyIFTGtUH2zhgB1XEhQ, 6116847)
+0053.096 (0) Recording as successfully uploaded: backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-plugins.zip (bb6396b04ae57737526c047296a2629c)
+0053.105 (0) Deleting local file: backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-plugins.zip
+0053.111 (0) Dropbox: File upload success (backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-plugins.zip): 5973 Kb in 34s (173 Kb/s)
+0053.353 (0) Dropbox quota usage: normal=71780.1 Mb, shared=56.1 Mb, total=107520 Mb, available=35683.8 Mb
+0053.362 (0) Dropbox: Attempt to upload: backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-themes.zip to: backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-themes.zip
+0055.091 (0) Dropbox chunked upload: 100 % uploaded (ua4fvlK2_wdXuzkr2Qs7LA, 306473)
+0056.571 (0) Recording as successfully uploaded: backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-themes.zip (2ffd3a9ac8a142fa0fa78dbc63dd016b)
+0056.579 (0) Deleting local file: backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-themes.zip
+0056.581 (0) Dropbox: File upload success (backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-themes.zip): 299 Kb in 3s (92 Kb/s)
+0056.859 (0) Dropbox quota usage: normal=71780.4 Mb, shared=56.1 Mb, total=107520 Mb, available=35683.5 Mb
+0056.862 (0) Dropbox: Attempt to upload: backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-uploads.zip to: backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-uploads.zip
+0058.753 (0) Dropbox chunked upload: 6.1 % uploaded (c7JEr6y2m2P4aBNBywM0ZA, 524288)
+0061.471 (0) Dropbox chunked upload: 12.2 % uploaded (c7JEr6y2m2P4aBNBywM0ZA, 1048576)
+0064.650 (0) Dropbox chunked upload: 18.3 % uploaded (c7JEr6y2m2P4aBNBywM0ZA, 1572864)
+0067.168 (0) Dropbox chunked upload: 24.4 % uploaded (c7JEr6y2m2P4aBNBywM0ZA, 2097152)
+0070.533 (0) Dropbox chunked upload: 30.5 % uploaded (c7JEr6y2m2P4aBNBywM0ZA, 2621440)
+0073.135 (0) Dropbox chunked upload: 36.5 % uploaded (c7JEr6y2m2P4aBNBywM0ZA, 3145728)
+0076.288 (0) Dropbox chunked upload: 42.6 % uploaded (c7JEr6y2m2P4aBNBywM0ZA, 3670016)
+0079.098 (0) Dropbox chunked upload: 48.7 % uploaded (c7JEr6y2m2P4aBNBywM0ZA, 4194304)
+0083.041 (0) Dropbox chunked upload: 54.8 % uploaded (c7JEr6y2m2P4aBNBywM0ZA, 4718592)
+0086.226 (0) Dropbox chunked upload: 60.9 % uploaded (c7JEr6y2m2P4aBNBywM0ZA, 5242880)
+0088.253 (0) Dropbox chunked upload: 67 % uploaded (c7JEr6y2m2P4aBNBywM0ZA, 5767168)
+0090.755 (0) Dropbox chunked upload: 73.1 % uploaded (c7JEr6y2m2P4aBNBywM0ZA, 6291456)
+0093.308 (0) Dropbox chunked upload: 79.2 % uploaded (c7JEr6y2m2P4aBNBywM0ZA, 6815744)
+0096.447 (0) Dropbox chunked upload: 85.3 % uploaded (c7JEr6y2m2P4aBNBywM0ZA, 7340032)
+0099.502 (0) Dropbox chunked upload: 91.4 % uploaded (c7JEr6y2m2P4aBNBywM0ZA, 7864320)
+0103.088 (0) Dropbox chunked upload: 97.5 % uploaded (c7JEr6y2m2P4aBNBywM0ZA, 8388608)
+0104.817 (0) Dropbox chunked upload: 100 % uploaded (c7JEr6y2m2P4aBNBywM0ZA, 8608031)
+0108.816 (0) Recording as successfully uploaded: backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-uploads.zip (17bdfe330b014f5b5e1826ee803a465a)
+0108.826 (0) Deleting local file: backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-uploads.zip
+0108.833 (0) Dropbox: File upload success (backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-uploads.zip): 8406 Kb in 51s (161 Kb/s)
+0109.149 (0) Dropbox quota usage: normal=71788.6 Mb, shared=56.1 Mb, total=107520 Mb, available=35675.3 Mb
+0109.151 (0) Dropbox: Attempt to upload: backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-others.zip to: backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-others.zip
+0111.016 (0) Dropbox chunked upload: 100 % uploaded (5r4N_u86YCjE2oWoY1qsvA, 2619)
+0112.158 (0) Recording as successfully uploaded: backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-others.zip (4ec7010a5f84192011e10565986da457)
+0112.168 (0) Deleting local file: backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-others.zip
+0112.172 (0) Dropbox: File upload success (backup_2014-02-13-1634_Martin_Fournier_0cf82d8bde27-others.zip): 2 Kb in 3s (0 Kb/s)
+0112.387 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+0112.391 (0) Number of backup sets in history: 6
+0112.394 (0) Examining backup set with datestamp: 1392338076 (Feb 14 2014 00:34:36)
+0112.406 (0) 1392338076: this backup set remains non-empty (1/0); will retain in history
+0112.411 (0) Examining backup set with datestamp: 1391732853 (Feb 07 2014 00:27:33)
+0112.418 (0) 1391732853: this backup set remains non-empty (1/0); will retain in history
+0112.420 (0) Examining backup set with datestamp: 1391127593 (Jan 31 2014 00:19:53)
+0112.645 (0) 1391127593: this backup set remains non-empty (1/0); will retain in history
+0112.647 (0) Examining backup set with datestamp: 1390522959 (Jan 24 2014 00:22:39)
+0112.649 (0) plugins: 1390522959: over retain limit (3); will delete this file (backup_2014-01-23-1622_Martin_Fournier_482fa192cce1-plugins.zip)
+0112.651 (0) themes: 1390522959: over retain limit (3); will delete this file (backup_2014-01-23-1622_Martin_Fournier_482fa192cce1-themes.zip)
+0112.653 (0) uploads: 1390522959: over retain limit (3); will delete this file (backup_2014-01-23-1622_Martin_Fournier_482fa192cce1-uploads.zip)
+0112.655 (0) others: 1390522959: over retain limit (3); will delete this file (backup_2014-01-23-1622_Martin_Fournier_482fa192cce1-others.zip)
+0112.657 (0) Delete file: backup_2014-01-23-1622_Martin_Fournier_482fa192cce1-plugins.zip, service=dropbox
+0112.659 (0) Delete file: backup_2014-01-23-1622_Martin_Fournier_482fa192cce1-themes.zip, service=dropbox
+0112.662 (0) Delete file: backup_2014-01-23-1622_Martin_Fournier_482fa192cce1-uploads.zip, service=dropbox
+0112.665 (0) Delete file: backup_2014-01-23-1622_Martin_Fournier_482fa192cce1-others.zip, service=dropbox
+0112.671 (0) Dropbox: request deletion: backup_2014-01-23-1622_Martin_Fournier_482fa192cce1-plugins.zip
+0113.170 (0) Dropbox: delete succeeded
+0113.182 (0) Dropbox: request deletion: backup_2014-01-23-1622_Martin_Fournier_482fa192cce1-themes.zip
+0113.723 (0) Dropbox: delete succeeded
+0113.726 (0) Dropbox: request deletion: backup_2014-01-23-1622_Martin_Fournier_482fa192cce1-uploads.zip
+0114.378 (0) Dropbox: delete succeeded
+0114.382 (0) Dropbox: request deletion: backup_2014-01-23-1622_Martin_Fournier_482fa192cce1-others.zip
+0114.933 (0) Dropbox: delete succeeded
+0114.944 (0) 1390522959: this backup set is now empty; will remove from history
+0114.947 (0) 1390522959: deleting log file (log.482fa192cce1.txt)
+0114.980 (0) Examining backup set with datestamp: 1381951076 (Oct 16 2013 19:17:56)
+0114.988 (0) 1381951076: db: this set includes a database (backup_2013-10-16-1117_Martin_Fournier_0c71f58cf1eb-db.gz); db count is now 1
+0115.010 (0) 1381951076: this backup set remains non-empty (0/1); will retain in history
+0115.014 (0) Examining backup set with datestamp: 1379031545 (Sep 13 2013 00:19:05)
+0115.017 (0) 1379031545: db: this set includes a database (backup_2013-09-12-1619_Martin_Fournier_5ff8c8ee05d0-db.gz); db count is now 2
+0115.025 (0) 1379031545: this backup set remains non-empty (0/1); will retain in history
+0115.027 (0) Retain: saving new backup history (sets now: 5) and finishing retain operation
+0115.279 (0) Resume backup (0cf82d8bde27, 0): finish run
+0115.284 (0) Decremented the semaphore (f) by 1
+0115.287 (0) Semaphore (f) unlocked
+0115.289 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0115.321 (0) With the next release of UpdraftPlus, you will need an add-on to use a different email address to the site owner's (info@martinfournier.com). See: http://updraftplus.com/next-updraftplus-release-ready-testing/
+0115.323 (0) Sending email ('Files only (database was not part of this particular schedule)') report to: marti...
+0115.544 (0) The backup apparently succeeded (with warnings) and is now complete

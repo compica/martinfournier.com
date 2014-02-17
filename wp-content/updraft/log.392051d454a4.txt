@@ -1,0 +1,298 @@
+0000.004 () Opened log file at time: Fri, 13 Sep 2013 00:18:03 +0000
+0000.032 () UpdraftPlus: 1.7.3 WP: 3.6 PHP: 5.2.17 (Linux spilotro 2.6.32.45-grsec-2.2.2-r3 #8 SMP Mon Oct 10 13:33:17 PDT 2011 x86_64) MySQL: 5.1.53-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 22M) ZipArchive::addFile : N
+0000.348 () Free space on disk containing Updraft's temporary directory: 664746.4 Mb
+0000.375 () Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: manual)
+0000.400 () Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.720 (0) Backup run: resumption=0, nonce=392051d454a4, begun at=1379031483 (1s ago), job type=backup
+0000.724 (0) Scheduling a resumption (1) after 300 seconds (1379031784) in case this run gets aborted
+0000.752 (0) Checking if we have a zip executable available
+0000.761 (0) Testing: /usr/bin/zip
+0000.793 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.800 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.807 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.908 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=127) (out=105) (deflated 17%)
+0001.002 (0) Output: total bytes=127, compressed=105 -> 17% savings
+0001.035 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=134) (out=109) (deflated 19%)
+0001.045 (0) Output: total bytes=261, compressed=214 -> 18% savings
+0001.081 (0) Working binary zip found: /usr/bin/zip
+0001.088 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0001.092 (0) Creation of backups of directories: beginning
+0001.101 (0) Beginning creation of dump of plugins (split every: 800 Mb)
+0001.201 (0) Remaining entities to add to zip file: 152 directories, 819 files
+0001.380 (0) Zip: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-plugins.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0001.402 (0) Zip: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-plugins.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0001.427 (0) Zip: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-plugins.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0001.452 (0) Zip: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-plugins.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0001.686 (0) Zip: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-plugins.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0001.755 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.1 Mb, 819 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0006.507 (0) /home/martinsky/martinfournier.com/wp-content/updraft/backup_2013-09-12-1618_Martin_Fournier_392051d454a4-plugins.zip.tmp: size is now: 3.20 Mb
+0006.572 (0) Zip: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-plugins.zip.tmp: 600 files added (on-disk size: 3249.3 Kb)
+0006.627 (0) Zip: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-plugins.zip.tmp: 700 files added (on-disk size: 3249.3 Kb)
+0006.673 (0) Zip: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-plugins.zip.tmp: 800 files added (on-disk size: 3249.3 Kb)
+0006.879 (0) /home/martinsky/martinfournier.com/wp-content/updraft/backup_2013-09-12-1618_Martin_Fournier_392051d454a4-plugins.zip.tmp: size is now: 3.20 Mb
+0009.171 (0) /home/martinsky/martinfournier.com/wp-content/updraft/backup_2013-09-12-1618_Martin_Fournier_392051d454a4-plugins.zip.tmp: size is now: 6.00 Mb
+0009.208 (0) Created plugins zip (0) - 6178.4 Kb in 8.1 s (762.8 Kb/s)
+0009.218 (0) Beginning creation of dump of themes (split every: 800 Mb)
+0009.315 (0) Remaining entities to add to zip file: 98 directories, 948 files
+0009.439 (0) Zip: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0009.456 (0) Zip: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-themes.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0009.471 (0) Zip: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-themes.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0009.488 (0) Zip: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-themes.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0009.503 (0) Zip: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-themes.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0009.510 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.3 Mb, 948 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0010.374 (0) /home/martinsky/martinfournier.com/wp-content/updraft/backup_2013-09-12-1618_Martin_Fournier_392051d454a4-themes.zip.tmp: size is now: 2.10 Mb
+0010.410 (0) Zip: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-themes.zip.tmp: 600 files added (on-disk size: 2174 Kb)
+0010.430 (0) Zip: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-themes.zip.tmp: 700 files added (on-disk size: 2174 Kb)
+0010.449 (0) Zip: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-themes.zip.tmp: 800 files added (on-disk size: 2174 Kb)
+0010.468 (0) Zip: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-themes.zip.tmp: 900 files added (on-disk size: 2174 Kb)
+0010.593 (0) /home/martinsky/martinfournier.com/wp-content/updraft/backup_2013-09-12-1618_Martin_Fournier_392051d454a4-themes.zip.tmp: size is now: 2.10 Mb
+0013.697 (0) /home/martinsky/martinfournier.com/wp-content/updraft/backup_2013-09-12-1618_Martin_Fournier_392051d454a4-themes.zip.tmp: size is now: 8.40 Mb
+0013.729 (0) Created themes zip (0) - 8576.4 Kb in 4.5 s (1904.2 Kb/s)
+0013.733 (0) Beginning creation of dump of uploads (split every: 800 Mb)
+0013.761 (0) Remaining entities to add to zip file: 38 directories, 115 files
+0014.027 (0) Zip: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-uploads.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0016.002 (0) /home/martinsky/martinfournier.com/wp-content/updraft/backup_2013-09-12-1618_Martin_Fournier_392051d454a4-uploads.zip.tmp: size is now: 7.00 Mb
+0016.027 (0) Created uploads zip (0) - 7187.2 Kb in 2.3 s (3143.1 Kb/s)
+0016.037 (0) Beginning backup of other directories found in the content directory (index: 0)
+0016.043 (0) Looking for candidates to back up in: /home/martinsky/martinfournier.com/wp-content
+0016.046 (0) finding files: backups: skipping: excluded by options (glob)
+0016.050 (0) finding files: plugins: skipping: this is the plugins directory
+0016.051 (0) finding files: themes: skipping: this is the themes directory
+0016.056 (0) finding files: upgrade: skipping: excluded by options
+0016.058 (0) finding files: uploads: skipping: this is the uploads directory
+0016.061 (0) finding files: index.php: adding to list
+0016.067 (0) finding files: updraft: skipping: this is the updraft directory
+0016.085 (0) Remaining entities to add to zip file: 0 directories, 1 files
+0016.121 (0) /home/martinsky/martinfournier.com/wp-content/updraft/backup_2013-09-12-1618_Martin_Fournier_392051d454a4-others.zip.tmp: size is now: 0.00 Mb
+0016.139 (0) Created others zip (0) - 0.2 Kb in 0.1 s (3.3 Kb/s)
+0016.153 (0) Saving backup status to database (elements: 8)
+0016.167 (0) No database backup - not part of this run
+0016.171 (0) Saving backup history
+0016.177 (0) backup_2013-09-12-1618_Martin_Fournier_392051d454a4-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0016.178 (0) backup_2013-09-12-1618_Martin_Fournier_392051d454a4-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0016.181 (0) backup_2013-09-12-1618_Martin_Fournier_392051d454a4-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0016.184 (0) backup_2013-09-12-1618_Martin_Fournier_392051d454a4-others.zip: others: This file has not yet been successfully uploaded: will queue
+0016.305 (0) Requesting upload of the files that have not yet been successfully uploaded (4)
+0016.356 (0) Cloud backup selection: dropbox
+0016.372 (0) Beginning dispatch of backup to remote
+0016.382 (0) Dropbox: begin cloud upload
+0016.561 (0) Request token not found. - need to reauthenticate this site with Dropbox (if this fails, then you can also try wiping your settings from the Expert Settings section
+0016.817 (0) Dropbox reauthorisation needed; but we are running from cron or the CLI, so this is not possible
+0016.854 (0) An error condition has occurred for the first time during this job
+0678.302 (1) Opened log file at time: Fri, 13 Sep 2013 00:29:21 +0000
+0678.304 (1) UpdraftPlus: 1.7.3 WP: 3.6 PHP: 5.2.17 (Linux spilotro 2.6.32.45-grsec-2.2.2-r3 #8 SMP Mon Oct 10 13:33:17 PDT 2011 x86_64) MySQL: 5.1.53-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 22.1M) ZipArchive::addFile : N
+0678.307 (1) Free space on disk containing Updraft's temporary directory: 664674.9 Mb
+0678.327 (1) Backup run: resumption=1, nonce=392051d454a4, begun at=1379031483 (678s ago), job type=backup, previous check-in=16.1s
+0678.329 (1) Scheduling a resumption (2) after 300 seconds (1379032461) in case this run gets aborted
+0678.363 (1) Checking if we have a zip executable available
+0678.374 (1) Testing: /usr/bin/zip
+0678.394 (1) Output: zip warning: binziptest/test.zip not found or empty
+0678.397 (1) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0678.399 (1) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0678.401 (1) Output: adding: binziptest/subdir1/subdir2/test.html	(in=127) (out=105) (deflated 17%)
+0678.402 (1) Output: total bytes=127, compressed=105 -> 17% savings
+0678.423 (1) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=134) (out=109) (deflated 19%)
+0678.426 (1) Output: total bytes=261, compressed=214 -> 18% savings
+0678.461 (1) Working binary zip found: /usr/bin/zip
+0678.464 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0678.465 (1) Creation of backups of directories: already finished
+0678.468 (1) Saving backup status to database (elements: 8)
+0678.470 (1) No database backup - not part of this run
+0678.471 (1) Saving backup history
+0678.474 (1) backup_2013-09-12-1618_Martin_Fournier_392051d454a4-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0678.476 (1) backup_2013-09-12-1618_Martin_Fournier_392051d454a4-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0678.478 (1) backup_2013-09-12-1618_Martin_Fournier_392051d454a4-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0678.480 (1) backup_2013-09-12-1618_Martin_Fournier_392051d454a4-others.zip: others: This file has not yet been successfully uploaded: will queue
+0678.481 (1) Requesting upload of the files that have not yet been successfully uploaded (4)
+0678.483 (1) Cloud backup selection: dropbox
+0678.489 (1) Beginning dispatch of backup to remote
+0678.491 (1) Dropbox: begin cloud upload
+0678.514 (1) Dropbox: access gained
+0678.717 (1) Dropbox quota usage: normal=106931.7 Mb, shared=56.1 Mb, total=107520 Mb, available=532.2 Mb
+0678.960 (1) Dropbox: Attempt to upload: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-plugins.zip to: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-plugins.zip
+0681.154 (1) Dropbox chunked upload: 8.3 % uploaded (kv40cKW_TGv7G0VgZmjrBg, 524288)
+0682.485 (1) Dropbox chunked upload exception: No upload with upload_id [kv40cKW_TGv7G0VgZmjrBg] found.
+0682.487 (1) Dropbox error: No upload with upload_id [kv40cKW_TGv7G0VgZmjrBg] found.
+0682.489 (1) An error condition has occurred for the first time during this job
+0682.644 (1) Dropbox quota usage: normal=106931.7 Mb, shared=56.1 Mb, total=107520 Mb, available=532.2 Mb
+0682.646 (1) Dropbox: Attempt to upload: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-themes.zip to: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-themes.zip
+0684.983 (1) Dropbox chunked upload: 6 % uploaded (cP4G1EtHuI-0AescO-9UkA, 524288)
+0686.300 (1) Dropbox chunked upload exception: No upload with upload_id [cP4G1EtHuI-0AescO-9UkA] found.
+0686.309 (1) Dropbox error: No upload with upload_id [cP4G1EtHuI-0AescO-9UkA] found.
+0686.509 (1) Dropbox quota usage: normal=106931.7 Mb, shared=56.1 Mb, total=107520 Mb, available=532.2 Mb
+0686.518 (1) Dropbox: Attempt to upload: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-uploads.zip to: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-uploads.zip
+0688.299 (1) Dropbox chunked upload: 7.1 % uploaded (e4Jikr3eouOMZq8ud-iZkA, 524288)
+0689.613 (1) Dropbox chunked upload exception: No upload with upload_id [e4Jikr3eouOMZq8ud-iZkA] found.
+0689.615 (1) Dropbox error: No upload with upload_id [e4Jikr3eouOMZq8ud-iZkA] found.
+0689.782 (1) Dropbox quota usage: normal=106931.7 Mb, shared=56.1 Mb, total=107520 Mb, available=532.2 Mb
+0689.789 (1) Dropbox: Attempt to upload: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-others.zip to: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-others.zip
+0690.774 (1) Dropbox chunked upload: 100 % uploaded (HHMkCgfFXDfKwt82hxzHtA, 198)
+0691.995 (1) Recording as successfully uploaded: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-others.zip (02afeaf5ac3b608680b2ea10c03d75a3)
+0692.023 (1) Deleting local file: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-others.zip
+0692.030 (1) Dropbox: File upload success (backup_2013-09-12-1618_Martin_Fournier_392051d454a4-others.zip): 0 Kb in 2s (0 Kb/s)
+0692.037 (1) Retain: beginning examination of existing backup sets
+0692.044 (1) Retain files: user setting: number to retain = 3
+0692.049 (1) Retain db: user setting: number to retain = 3
+0692.057 (1) Number of backup sets in history: 2
+0692.065 (1) Examining backup set with datestamp: 1379031545
+0692.070 (1) 1379031545: this set includes a database (backup_2013-09-12-1619_Martin_Fournier_5ff8c8ee05d0-db.gz); db count is now 1
+0692.075 (1) 1379031545: this set includes files; fileset count is now 1
+0692.079 (1) 1379031545: this backup set remains non-empty; will retain in history
+0692.085 (1) Examining backup set with datestamp: 1379031483
+0692.091 (1) 1379031483: this set includes files; fileset count is now 2
+0692.095 (1) 1379031483: this backup set remains non-empty; will retain in history
+0692.098 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0692.103 (1) Resume backup (392051d454a4, 1): finish run
+0692.111 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0692.115 (1) The backup has not finished; a resumption is scheduled within 5 minutes
+1111.560 (2) Opened log file at time: Fri, 13 Sep 2013 00:36:35 +0000
+1111.563 (2) UpdraftPlus: 1.7.3 WP: 3.6 PHP: 5.2.17 (Linux spilotro 2.6.32.45-grsec-2.2.2-r3 #8 SMP Mon Oct 10 13:33:17 PDT 2011 x86_64) MySQL: 5.1.53-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 22.1M) ZipArchive::addFile : N
+1111.565 (2) Free space on disk containing Updraft's temporary directory: 664724.4 Mb
+1111.569 (2) Backup run: resumption=2, nonce=392051d454a4, begun at=1379031483 (1112s ago), job type=backup, previous check-in=12.5s
+1111.571 (2) Scheduling a resumption (3) after 300 seconds (1379032895) in case this run gets aborted
+1111.594 (2) Checking if we have a zip executable available
+1111.596 (2) Testing: /usr/bin/zip
+1111.613 (2) Output: zip warning: binziptest/test.zip not found or empty
+1111.616 (2) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+1111.618 (2) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+1111.620 (2) Output: adding: binziptest/subdir1/subdir2/test.html	(in=127) (out=105) (deflated 17%)
+1111.622 (2) Output: total bytes=127, compressed=105 -> 17% savings
+1111.640 (2) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=134) (out=109) (deflated 19%)
+1111.644 (2) Output: total bytes=261, compressed=214 -> 18% savings
+1111.679 (2) Working binary zip found: /usr/bin/zip
+1111.681 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+1111.683 (2) Creation of backups of directories: already finished
+1111.685 (2) Saving backup status to database (elements: 8)
+1111.687 (2) No database backup - not part of this run
+1111.689 (2) Saving backup history
+1111.691 (2) backup_2013-09-12-1618_Martin_Fournier_392051d454a4-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1111.693 (2) backup_2013-09-12-1618_Martin_Fournier_392051d454a4-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1111.695 (2) backup_2013-09-12-1618_Martin_Fournier_392051d454a4-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1111.698 (2) backup_2013-09-12-1618_Martin_Fournier_392051d454a4-others.zip: others: This file has already been successfully uploaded
+1111.700 (2) Requesting upload of the files that have not yet been successfully uploaded (3)
+1111.701 (2) Cloud backup selection: dropbox
+1111.707 (2) Beginning dispatch of backup to remote
+1111.709 (2) Dropbox: begin cloud upload
+1111.726 (2) Dropbox: access gained
+1111.909 (2) Dropbox quota usage: normal=107001.8 Mb, shared=56.1 Mb, total=107520 Mb, available=462.1 Mb
+1112.059 (2) This is a resumption: 524288 bytes had already been uploaded
+1112.061 (2) Dropbox: Attempt to upload: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-plugins.zip to: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-plugins.zip
+1113.470 (2) Dropbox chunked upload exception: No upload with upload_id [kv40cKW_TGv7G0VgZmjrBg] found.
+1113.480 (2) Dropbox error: No upload with upload_id [kv40cKW_TGv7G0VgZmjrBg] found.
+1113.486 (2) An error condition has occurred for the first time during this job
+1113.707 (2) Dropbox quota usage: normal=107001.8 Mb, shared=56.1 Mb, total=107520 Mb, available=462.1 Mb
+1113.715 (2) This is a resumption: 524288 bytes had already been uploaded
+1113.721 (2) Dropbox: Attempt to upload: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-themes.zip to: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-themes.zip
+1115.082 (2) Dropbox chunked upload exception: No upload with upload_id [cP4G1EtHuI-0AescO-9UkA] found.
+1115.162 (2) Dropbox error: No upload with upload_id [cP4G1EtHuI-0AescO-9UkA] found.
+1115.345 (2) Dropbox quota usage: normal=107001.8 Mb, shared=56.1 Mb, total=107520 Mb, available=462.1 Mb
+1115.347 (2) This is a resumption: 524288 bytes had already been uploaded
+1115.349 (2) Dropbox: Attempt to upload: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-uploads.zip to: backup_2013-09-12-1618_Martin_Fournier_392051d454a4-uploads.zip
+1116.668 (2) Dropbox chunked upload exception: No upload with upload_id [e4Jikr3eouOMZq8ud-iZkA] found.
+1116.670 (2) Dropbox error: No upload with upload_id [e4Jikr3eouOMZq8ud-iZkA] found.
+1116.673 (2) Retain: beginning examination of existing backup sets
+1116.676 (2) Retain files: user setting: number to retain = 3
+1116.680 (2) Retain db: user setting: number to retain = 3
+1116.685 (2) Number of backup sets in history: 3
+1116.690 (2) Examining backup set with datestamp: 1379031608
+1116.694 (2) 1379031608: this set includes files; fileset count is now 1
+1116.697 (2) 1379031608: this backup set remains non-empty; will retain in history
+1116.700 (2) Examining backup set with datestamp: 1379031545
+1116.808 (2) 1379031545: this set includes a database (backup_2013-09-12-1619_Martin_Fournier_5ff8c8ee05d0-db.gz); db count is now 1
+1116.841 (2) 1379031545: this set includes files; fileset count is now 2
+1116.843 (2) 1379031545: this backup set remains non-empty; will retain in history
+1116.846 (2) Examining backup set with datestamp: 1379031483
+1116.848 (2) 1379031483: this set includes files; fileset count is now 3
+1116.850 (2) 1379031483: this backup set remains non-empty; will retain in history
+1116.851 (2) Retain: saving new backup history (sets now: 3) and finishing retain operation
+1116.853 (2) Resume backup (392051d454a4, 2): finish run
+1116.856 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1116.861 (2) The backup has not finished; a resumption is scheduled within 5 minutes
+1297.208 (3) Opened log file at time: Fri, 13 Sep 2013 00:41:46 +0000
+1297.210 (3) UpdraftPlus: 1.7.3 WP: 3.6 PHP: 5.2.17 (Linux spilotro 2.6.32.45-grsec-2.2.2-r3 #8 SMP Mon Oct 10 13:33:17 PDT 2011 x86_64) MySQL: 5.1.53-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 24.6M) ZipArchive::addFile : N
+1297.213 (3) Free space on disk containing Updraft's temporary directory: 664723.6 Mb
+1297.220 (3) Backup run: resumption=3, nonce=392051d454a4, begun at=1379031608 (1298s ago), job type=backup
+1297.222 (3) Scheduling a resumption (4) after 300 seconds (1379033206) in case this run gets aborted
+1297.226 (3) Creation of backups of directories: already finished
+1297.228 (3) Saving backup status to database (elements: 8)
+1297.231 (3) No database backup - not part of this run
+1297.233 (3) Saving backup history
+1297.236 (3) backup_2013-09-12-1620_Martin_Fournier_6d99cc829cb4-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1297.238 (3) backup_2013-09-12-1620_Martin_Fournier_6d99cc829cb4-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1297.240 (3) backup_2013-09-12-1620_Martin_Fournier_6d99cc829cb4-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1297.242 (3) backup_2013-09-12-1620_Martin_Fournier_6d99cc829cb4-others.zip: others: This file has already been successfully uploaded
+1297.243 (3) Requesting upload of the files that have not yet been successfully uploaded (3)
+1297.245 (3) Cloud backup selection: dropbox
+1297.247 (3) Beginning dispatch of backup to remote
+1297.249 (3) Dropbox: begin cloud upload
+1297.252 (3) Dropbox: access gained
+1297.417 (3) Dropbox quota usage: normal=107001.8 Mb, shared=56.1 Mb, total=107520 Mb, available=462.1 Mb
+1297.450 (3) This is a resumption: 524288 bytes had already been uploaded
+1297.578 (3) Dropbox: Attempt to upload: backup_2013-09-12-1620_Martin_Fournier_6d99cc829cb4-plugins.zip to: backup_2013-09-12-1620_Martin_Fournier_6d99cc829cb4-plugins.zip
+1298.950 (3) Dropbox chunked upload exception: No upload with upload_id [IHhOX2VXsHYbKi0o5hztuA] found.
+1298.992 (3) Dropbox error: No upload with upload_id [IHhOX2VXsHYbKi0o5hztuA] found.
+1299.184 (3) Dropbox quota usage: normal=107001.8 Mb, shared=56.1 Mb, total=107520 Mb, available=462.1 Mb
+1299.187 (3) This is a resumption: 524288 bytes had already been uploaded
+1299.189 (3) Dropbox: Attempt to upload: backup_2013-09-12-1620_Martin_Fournier_6d99cc829cb4-themes.zip to: backup_2013-09-12-1620_Martin_Fournier_6d99cc829cb4-themes.zip
+1300.490 (3) Dropbox chunked upload exception: No upload with upload_id [7wnArlm-lsIfSRugnVVHdA] found.
+1300.497 (3) Dropbox error: No upload with upload_id [7wnArlm-lsIfSRugnVVHdA] found.
+1300.687 (3) Dropbox quota usage: normal=107001.8 Mb, shared=56.1 Mb, total=107520 Mb, available=462.1 Mb
+1300.690 (3) This is a resumption: 524288 bytes had already been uploaded
+1300.692 (3) Dropbox: Attempt to upload: backup_2013-09-12-1620_Martin_Fournier_6d99cc829cb4-uploads.zip to: backup_2013-09-12-1620_Martin_Fournier_6d99cc829cb4-uploads.zip
+1302.089 (3) Dropbox chunked upload exception: No upload with upload_id [uPf7IFzwxTRQPNy2BDf0Ng] found.
+1302.109 (3) Dropbox error: No upload with upload_id [uPf7IFzwxTRQPNy2BDf0Ng] found.
+1302.117 (3) Retain: beginning examination of existing backup sets
+1302.122 (3) Retain files: user setting: number to retain = 3
+1302.128 (3) Retain db: user setting: number to retain = 3
+1302.133 (3) Number of backup sets in history: 3
+1302.140 (3) Examining backup set with datestamp: 1379031608
+1302.145 (3) 1379031608: this set includes files; fileset count is now 1
+1302.146 (3) 1379031608: this backup set remains non-empty; will retain in history
+1302.148 (3) Examining backup set with datestamp: 1379031545
+1302.182 (3) 1379031545: this set includes a database (backup_2013-09-12-1619_Martin_Fournier_5ff8c8ee05d0-db.gz); db count is now 1
+1302.212 (3) 1379031545: this set includes files; fileset count is now 2
+1302.218 (3) 1379031545: this backup set remains non-empty; will retain in history
+1302.223 (3) Examining backup set with datestamp: 1379031483
+1302.229 (3) 1379031483: this set includes files; fileset count is now 3
+1302.234 (3) 1379031483: this backup set remains non-empty; will retain in history
+1302.245 (3) Retain: saving new backup history (sets now: 3) and finishing retain operation
+1302.267 (3) Resume backup (392051d454a4, 3): finish run
+1302.331 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1302.334 (3) The backup has not finished; a resumption is scheduled within 5 minutes
+1999.762 (4) Opened log file at time: Fri, 13 Sep 2013 00:53:28 +0000
+1999.773 (4) UpdraftPlus: 1.7.3 WP: 3.6 PHP: 5.2.17 (Linux spilotro 2.6.32.45-grsec-2.2.2-r3 #8 SMP Mon Oct 10 13:33:17 PDT 2011 x86_64) MySQL: 5.1.53-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 25.5M) ZipArchive::addFile : N
+1999.779 (4) Free space on disk containing Updraft's temporary directory: 664760.9 Mb
+1999.824 (4) Terminate: check-in exists with activity within the last 30 seconds (time_mod=1379033605.5, time_now=1379033608.8, diff=3, size=n/a). This likely means that another UpdraftPlus run is at work; so we will exit.
+1999.834 (4) Rescheduling resumption 5: moving to 420 seconds from now (1379034028)
+1999.858 (4) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 120 = 420
+0000.000 (5) Opened log file at time: Fri, 13 Sep 2013 01:02:22 +0000
+0000.003 (5) UpdraftPlus: 1.7.3 WP: 3.6 PHP: 5.2.17 (Linux spilotro 2.6.32.45-grsec-2.2.2-r3 #8 SMP Mon Oct 10 13:33:17 PDT 2011 x86_64) MySQL: 5.1.53-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 22.1M) ZipArchive::addFile : N
+0000.005 (5) Free space on disk containing Updraft's temporary directory: 664739.3 Mb
+0000.025 (5) Backup run: resumption=5, nonce=392051d454a4, begun at= (1379034142s ago), job type=
+0000.027 (5) Scheduling a resumption (6) after 300 seconds (1379034442) in case this run gets aborted
+0000.033 (5) Abort this run: the backup_time parameter appears to be empty (this is usually caused by resuming an already-complete backup, or by your site having a faulty object cache active (e.g. W3 Total Cache's object cache))
+0000.000 (6) Opened log file at time: Fri, 13 Sep 2013 01:11:33 +0000
+0000.003 (6) UpdraftPlus: 1.7.3 WP: 3.6 PHP: 5.2.17 (Linux spilotro 2.6.32.45-grsec-2.2.2-r3 #8 SMP Mon Oct 10 13:33:17 PDT 2011 x86_64) MySQL: 5.1.53-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 22.1M) ZipArchive::addFile : N
+0000.005 (6) Free space on disk containing Updraft's temporary directory: 664732.9 Mb
+0000.010 (6) Backup run: resumption=6, nonce=392051d454a4, begun at= (1379034693s ago), job type=
+0000.011 (6) Scheduling a resumption (7) after 300 seconds (1379034993) in case this run gets aborted
+0000.017 (6) Abort this run: the backup_time parameter appears to be empty (this is usually caused by resuming an already-complete backup, or by your site having a faulty object cache active (e.g. W3 Total Cache's object cache))
+0000.000 (7) Opened log file at time: Fri, 13 Sep 2013 01:36:25 +0000
+0000.006 (7) UpdraftPlus: 1.7.3 WP: 3.6 PHP: 5.2.17 (Linux spilotro 2.6.32.45-grsec-2.2.2-r3 #8 SMP Mon Oct 10 13:33:17 PDT 2011 x86_64) MySQL: 5.1.53-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 22.1M) ZipArchive::addFile : N
+0000.012 (7) Free space on disk containing Updraft's temporary directory: 664722.3 Mb
+0000.046 (7) Backup run: resumption=7, nonce=392051d454a4, begun at= (1379036185s ago), job type=
+0000.050 (7) Scheduling a resumption (8) after 300 seconds (1379036485) in case this run gets aborted
+0000.059 (7) Abort this run: the backup_time parameter appears to be empty (this is usually caused by resuming an already-complete backup, or by your site having a faulty object cache active (e.g. W3 Total Cache's object cache))
+0000.000 (8) Opened log file at time: Fri, 13 Sep 2013 01:44:34 +0000
+0000.192 (8) UpdraftPlus: 1.7.3 WP: 3.6 PHP: 5.2.17 (Linux spilotro 2.6.32.45-grsec-2.2.2-r3 #8 SMP Mon Oct 10 13:33:17 PDT 2011 x86_64) MySQL: 5.1.53-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 22.1M) ZipArchive::addFile : N
+0000.231 (8) Free space on disk containing Updraft's temporary directory: 664695.4 Mb
+0000.248 (8) Backup run: resumption=8, nonce=392051d454a4, begun at= (1379036675s ago), job type=
+0000.255 (8) Time passed on previous resumptions: 0:? 1:? 2:? 3:? 4:? 5:? 6:? 7:?  (known: 0, max: 0)
+0000.309 (8) Scheduling a resumption (9) after 300 seconds (1379036975) in case this run gets aborted
+0000.325 (8) Abort this run: the backup_time parameter appears to be empty (this is usually caused by resuming an already-complete backup, or by your site having a faulty object cache active (e.g. W3 Total Cache's object cache))
+0000.000 (9) Opened log file at time: Fri, 13 Sep 2013 01:49:49 +0000
+0000.011 (9) UpdraftPlus: 1.7.3 WP: 3.6 PHP: 5.2.17 (Linux spilotro 2.6.32.45-grsec-2.2.2-r3 #8 SMP Mon Oct 10 13:33:17 PDT 2011 x86_64) MySQL: 5.1.53-log Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 22.1M) ZipArchive::addFile : N
+0000.157 (9) Free space on disk containing Updraft's temporary directory: 664715.6 Mb
+0000.276 (9) Backup run: resumption=9, nonce=392051d454a4, begun at= (1379036989s ago), job type=
+0000.282 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: ) - will not schedule a further attempt until we see something useful happening this time
+0000.287 (9) Abort this run: the backup_time parameter appears to be empty (this is usually caused by resuming an already-complete backup, or by your site having a faulty object cache active (e.g. W3 Total Cache's object cache))
